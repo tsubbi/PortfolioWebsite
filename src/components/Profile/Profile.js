@@ -10,13 +10,13 @@ import '../../css/profile.css';
 const Profile = () => {
     return (
         // use className rather than "class" in react
-        <div className="profile container_shadow">
-            <div className="name_container">
-                <Typography className="name">君の名は</Typography>
-                <Typography className="title">Your Title</Typography>
+        <div className={"profile container_shadow"}>
+            <div className={"name_container"}>
+                <Typography className={"name"}>君の名は</Typography>
+                <Typography className={"title"}>Your Title</Typography>
             </div>
 
-            <div className="profile_image">
+            <div className={"profile_image"}>
                 {/* 
                     How to make the image appear:
                     1.  require('file_source') will not work due to the react version.
@@ -28,7 +28,7 @@ const Profile = () => {
                 
             </div>
 
-            <div className="profile_info">
+            <div className={"profile_info"}>
                 <ResumeTimeline />
                 <br />
                 <button>mButton</button>
