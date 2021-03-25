@@ -1,9 +1,11 @@
 import React from 'react';
 // UI-framework
 import { Typography } from '@material-ui/core';
-import '../../css/profile.css';
 // image
 import IMAGES from '../../images/img_index.js';
+// component
+import ResumeTimeline from '../Timeline/ResumeTimeline';
+import '../../css/profile.css';
 
 const Profile = () => {
     return (
@@ -27,7 +29,7 @@ const Profile = () => {
             </div>
 
             <div className="profile_info">
-                I are the Timeline
+                <ResumeTimeline />
                 <br />
                 <button>mButton</button>
             </div>
