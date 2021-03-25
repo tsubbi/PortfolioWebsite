@@ -1,7 +1,7 @@
 // library
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// framework
+// UI-framework
 import { Container, Grid } from '@material-ui/core';
 // components
 import Profile from './components/Profile/Profile';
@@ -25,7 +25,7 @@ function App() {
           md: medium(1440px)
           lg: large(1920px)
         */}
-        <Grid item sx={12} sm={12} md={4} lg={3} style={{backgroundColor: 'tomato'}}>
+        <Grid item sx={12} sm={12} md={4} lg={3}>
           <Profile />
         </Grid>
         {/* right container */}
