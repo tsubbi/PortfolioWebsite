@@ -6,3 +6,9 @@ Portfolio Website
 
 ## PAGE TRANSITION
 - [ ] Framer-Motion
+
+## ISSUE
+### SCSS
+- [ ] unable to implement @use.
+  - SOLUTION: find another plug-in for morden SCSS
+
